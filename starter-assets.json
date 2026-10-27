@@ -1,0 +1,320 @@
+{
+  "items": [
+    {
+      "id": "WS_010",
+      "recordId": "WS_010",
+      "name": "引出し付き研究机",
+      "sha256": "d6cd30625c756f1197e5bd7d02cd853f30bdcac19c066c652eebdeaab0e6404a",
+      "file": "models/d6cd30625c756f1197e5bd7d02cd853f30bdcac19c066c652eebdeaab0e6404a.glb",
+      "licenseText": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_010_CC0.zip",
+      "sourceZipSha256": "eb4bef908578a5bf4118291dde50740aee47e6c571e5ddb24e8b7c9a003a12f2",
+      "archiveMember": "WS010_research_desk.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.8624999970197678,
+          0,
+          -0.44999998807907104
+        ],
+        "max": [
+          0.8624999970197678,
+          0.8225000202655792,
+          0.44999998807907104
+        ]
+      },
+      "triangles": 9668,
+      "supportScope": "explicit measured desktop/open shelf"
+    },
+    {
+      "id": "WS_011",
+      "recordId": "WS_011",
+      "name": "彫刻柱付き書架",
+      "sha256": "936cd6218736c050b63076be33daf93fd0ded184dd7904eb9e8ae387f92d8361",
+      "file": "models/936cd6218736c050b63076be33daf93fd0ded184dd7904eb9e8ae387f92d8361.glb",
+      "licenseText": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_011_CC0.zip",
+      "sourceZipSha256": "715de47c75aac719b155e14ed1d076f50518c5ce246d6a51b9d70d2537d01b44",
+      "archiveMember": "WS011_library_bay.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.6600000262260437,
+          0,
+          -0.2800000011920929
+        ],
+        "max": [
+          0.6600000262260437,
+          2.5075000189244747,
+          0.27999998614192
+        ]
+      },
+      "triangles": 7072,
+      "supportScope": "explicit measured desktop/open shelf"
+    },
+    {
+      "id": "WS_024",
+      "recordId": "WS_024",
+      "name": "遮光フード付き研究灯",
+      "sha256": "11cf7229067639601bdefd65caa61d420ffb4f750228a37de26bfa23d394e5e0",
+      "file": "models/11cf7229067639601bdefd65caa61d420ffb4f750228a37de26bfa23d394e5e0.glb",
+      "licenseText": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_024_CC0.zip",
+      "sourceZipSha256": "2501af6ad45911284c581e6af7b0a64df3c807ede7663a50685f9ba5d9db84d7",
+      "archiveMember": "WS024_observatory_lamp.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.16499999910593033,
+          0,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.16499999910593033,
+          0.3689553439617157,
+          0.10000000149011612
+        ]
+      },
+      "triangles": 2304,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "WS_039",
+      "recordId": "WS_039",
+      "name": "書き込みだらけの研究紙束",
+      "sha256": "6b0838dd4861443284c2567e6c8b2c08247a2ad496e426053961d3fa6ff846a3",
+      "file": "models/6b0838dd4861443284c2567e6c8b2c08247a2ad496e426053961d3fa6ff846a3.glb",
+      "licenseText": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_039_CC0.zip",
+      "sourceZipSha256": "6f980929cc54cacb86483868516840d1126370d43b4735ba28b3f9cd422a3cea",
+      "archiveMember": "WS039_annotated_research_sheets.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.20299617808061182,
+          0,
+          -0.1568376387603407
+        ],
+        "max": [
+          0.20299617808061182,
+          0.021799999522045255,
+          0.1568376371688171
+        ]
+      },
+      "triangles": 15548,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "FP014",
+      "recordId": "FP014",
+      "name": "インク壺と羽根ペン",
+      "sha256": "541f1add338399a04172dd01efad7dfc65c3212e50d10348c3dc923c5db66d0a",
+      "file": "models/541f1add338399a04172dd01efad7dfc65c3212e50d10348c3dc923c5db66d0a.glb",
+      "licenseText": "CC0 1.0 Universal\nThe model files (.blend and .glb) and their embedded materials/textures in this asset package are dedicated to the public domain under CC0 1.0.\nhttps://creativecommons.org/publicdomain/zero/1.0/\nCommercial use, modification and redistribution are permitted; attribution is not required. No warranty is provided. This dedication does not cover the article text, rendered example images, or unrelated repository contents.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/FP014_Inkpot_and_quill.zip",
+      "sourceZipSha256": "5d129d8c7dc8833580806614bbbf783fdc1fa42631cf7aff99854b1580264051",
+      "archiveMember": "FP014_Inkpot_and_quill.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.05249999836087227,
+          0,
+          -0.05249999836087227
+        ],
+        "max": [
+          0.13183221220970154,
+          0.5270000100135803,
+          0.05249999836087227
+        ]
+      },
+      "triangles": 824,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "FT_017",
+      "recordId": "FT_017",
+      "name": "木製マグ",
+      "sha256": "31a037466a9256edfc7512d4a37c193abd3fa95c78b6ae48758fde8229d7c455",
+      "file": "models/31a037466a9256edfc7512d4a37c193abd3fa95c78b6ae48758fde8229d7c455.glb",
+      "licenseText": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_017_CC0.zip",
+      "sourceZipSha256": "14bd4150053c91730d9cf72af5423543015e3bcb41c95a0528c0949424a48be1",
+      "archiveMember": "FT_017/model.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.09379999712109566,
+          0,
+          -0.06759999692440033
+        ],
+        "max": [
+          0.09379999712109566,
+          0.18000000715255737,
+          0.06759999692440033
+        ]
+      },
+      "triangles": 5148,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "FT_044",
+      "recordId": "FT_044",
+      "name": "二つの実開口を持つ漆喰の壁",
+      "sha256": "98c19bb848070bce321bd5128330087e587690caa98bff41cd1698447a94cc51",
+      "file": "models/98c19bb848070bce321bd5128330087e587690caa98bff41cd1698447a94cc51.glb",
+      "licenseText": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_044_CC0.zip",
+      "sourceZipSha256": "60a8bf956f64498523747b9d396253f73706613c5bfc879f97f9aada738be38c",
+      "archiveMember": "FT_044/model.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -1.5,
+          0,
+          -0.07999999821186066
+        ],
+        "max": [
+          1.5,
+          2.4000000953674316,
+          0.07999999821186066
+        ]
+      },
+      "triangles": 1944,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "PM002",
+      "recordId": "PM002",
+      "name": "石壁2m",
+      "sha256": "ebb8e6d3bb30748814d5700e19945fa30a6ef89080ec52fe468854208b9de0e7",
+      "file": "models/ebb8e6d3bb30748814d5700e19945fa30a6ef89080ec52fe468854208b9de0e7.glb",
+      "licenseText": "CC0 1.0 Universal\nThe model files (.blend and .glb) and their embedded materials/textures in this asset package are dedicated to the public domain under CC0 1.0.\nhttps://creativecommons.org/publicdomain/zero/1.0/\nCommercial use, modification and redistribution are permitted; attribution is not required. No warranty is provided. This dedication does not cover the article text, rendered example images, or unrelated repository contents.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/PM002_Solid_Wall_2m.zip",
+      "sourceZipSha256": "bdad40ec2f8f10195537f608a38eca36b62354706fea7b2dce7389fb10b5224f",
+      "archiveMember": "PM002_Solid_Wall_2m.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          0.13999998569488525,
+          -4.470348358154297e-08,
+          -0.11999999731779099
+        ],
+        "max": [
+          1.8600000739097595,
+          3.2000000029802322,
+          0.11999999731779099
+        ]
+      },
+      "triangles": 2172,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "PM006",
+      "recordId": "PM006",
+      "name": "共通石柱",
+      "sha256": "3c5495a3a8e44a806c213ee3a2f6b66d025cc9b80eaea09af203b18e5529c694",
+      "file": "models/3c5495a3a8e44a806c213ee3a2f6b66d025cc9b80eaea09af203b18e5529c694.glb",
+      "licenseText": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel geometry and embedded materials only.",
+      "sourceURL": "https://raw.githubusercontent.com/k3peta/tales-on-a-table/main/distributions/quality-pmnode-wm009-repair-v1/PM006__repair_CC0.zip",
+      "sourceZipSha256": "a9faf1dc74938786d8bc906cc1bdff1d31f8ff75a1322e397c5b7106d71143fb",
+      "archiveMember": "PM006__repair.glb",
+      "selectedRevision": "PM006__repair",
+      "bounds": {
+        "min": [
+          -0.14000000059604645,
+          0,
+          -0.14000000059604645
+        ],
+        "max": [
+          0.14000000059604645,
+          3.200000047683716,
+          0.14000000059604645
+        ]
+      },
+      "triangles": 876,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "PM005__repair",
+      "recordId": "PM005",
+      "name": "アーチ窓の石壁（UV改修版）",
+      "sha256": "0e06994e8ed36fd35931c1703a0497441b23422cb216e3c8fdc018fc7a0a098e",
+      "file": "models/0e06994e8ed36fd35931c1703a0497441b23422cb216e3c8fdc018fc7a0a098e.glb",
+      "licenseText": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel and embedded materials only.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/PM005_Arched_Window_Wall_2m.zip",
+      "sourceZipSha256": "cfe825256c6ffa207342a3d9404f9bdf5ae59ed2b1868a1eb23a9a6a79a69da5",
+      "archiveMember": "PM005__repair.glb",
+      "selectedRevision": "PM005__repair",
+      "bounds": {
+        "min": [
+          0.14000000059604645,
+          0,
+          -0.15000000596046448
+        ],
+        "max": [
+          1.8600000143051147,
+          3.200000047683716,
+          0.22499999403953552
+        ]
+      },
+      "triangles": 6388,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "WS_002",
+      "recordId": "WS_002",
+      "name": "紐綴じの採集帳（緑）",
+      "sha256": "0e7fca15c49e1f87b5652984748ebcaa93fa093da015651afd22fe2a79681a26",
+      "file": "models/0e7fca15c49e1f87b5652984748ebcaa93fa093da015651afd22fe2a79681a26.glb",
+      "licenseText": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_002_CC0.zip",
+      "sourceZipSha256": "a42e27d7a30b28c526caee68a47b6e60df3b42e2d01c94353346127db330da77",
+      "archiveMember": "WS002_field_notebook.glb",
+      "selectedRevision": "original",
+      "bounds": {
+        "min": [
+          -0.082163006067276,
+          0,
+          -0.12818652018904686
+        ],
+        "max": [
+          0.082163006067276,
+          0.05779321608133614,
+          0.12818652018904686
+        ]
+      },
+      "triangles": 13828,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    },
+    {
+      "id": "WS_002__color_blue",
+      "recordId": "WS_002",
+      "name": "紐綴じの採集帳（青・同形色違い）",
+      "sha256": "be30ad64915a2274fe4e354ce992260923e16c9eb85680b1697b838d006d27f4",
+      "file": "models/be30ad64915a2274fe4e354ce992260923e16c9eb85680b1697b838d006d27f4.glb",
+      "licenseText": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel and embedded materials only.\n",
+      "sourceURL": "https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_002_CC0.zip",
+      "sourceZipSha256": "f32b9291ba8cf036952f38a5d5dc1db4546f03bb43c4ffa68a5199f6222039ba",
+      "archiveMember": "WS_002__color_blue.glb",
+      "selectedRevision": "WS_002__color_blue",
+      "bounds": {
+        "min": [
+          -0.082163006067276,
+          0,
+          -0.12818652018904686
+        ],
+        "max": [
+          0.082163006067276,
+          0.05779321608133614,
+          0.12818652018904686
+        ]
+      },
+      "triangles": 13828,
+      "supportScope": "floor or registered support surface; no new arbitrary surface inference"
+    }
+  ],
+  "modelsBundled": 21,
+  "choices": 26,
+  "initialFurniture": 0,
+  "note": "Blue notebook is a same-shape color variant. Wall types/pivots differ. No automatic wall joining."
+}

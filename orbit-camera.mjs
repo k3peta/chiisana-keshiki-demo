@@ -1,0 +1,21 @@
+// Same camera maths for editor and exported viewer. No object mutation, no network.
+const clamp=(v,min,max)=>Math.max(min,Math.min(max,v));
+function finite(v){if(!Number.isFinite(v))throw Error('カメラ操作の数値が不正です');return v}
+function vector(v){if(!Array.isArray(v)||v.length!==3||!v.every(Number.isFinite))throw Error('カメラ座標が不正です');return v}
+function offset(camera){let a=vector(camera.position).map((v,i)=>v-vector(camera.target)[i]),r=Math.hypot(...a);if(r<.01)throw Error('カメラと中心を離してください');return {a,r}}
+function result(camera,position,target=camera.target){if([...position,...target].some(v=>!Number.isFinite(v)||Math.abs(v)>30))throw Error('カメラの操作範囲（±30m）を超えます。中心か距離を調整してください');let next={...structuredClone(camera),position,target:[...target]};delete next.layoutView;return next}
+export function orbitCamera(camera,yawDegrees,pitchDegrees){if(camera.up)return trackballCamera(camera,-yawDegrees,-pitchDegrees);finite(yawDegrees);finite(pitchDegrees);let {a,r}=offset(camera),yaw=Math.atan2(a[0],a[2])+yawDegrees*Math.PI/180,pitch=clamp(Math.asin(clamp(a[1]/r,-1,1))+pitchDegrees*Math.PI/180,-85*Math.PI/180,85*Math.PI/180);return result(camera,[camera.target[0]+r*Math.cos(pitch)*Math.sin(yaw),camera.target[1]+r*Math.sin(pitch),camera.target[2]+r*Math.cos(pitch)*Math.cos(yaw)])}
+export function zoomCamera(camera,factor){finite(factor);if(factor<=0)throw Error('ズーム倍率は正数にしてください');let {a,r}=offset(camera);if(camera.projection==='orthographic'){return {...structuredClone(camera),orthoSize:clamp(finite(camera.orthoSize)*factor,.2,50)}}let unit=a.map(v=>v/r),max=40;for(let i=0;i<3;i++)if(Math.abs(unit[i])>1e-12)max=Math.min(max,((unit[i]>0?30:-30)-camera.target[i])/unit[i]);if(max<.25)throw Error('中心が操作範囲の端にあります');let distance=clamp(r*factor,.25,max);return result(camera,unit.map((v,i)=>camera.target[i]+v*distance))}
+export function retargetCamera(camera,target){vector(target);let {a}=offset(camera);return result(camera,target.map((v,i)=>v+a[i]),target)}
+export function boundsCenter(objects,models,transform,point){if(!objects.length)return [0,0,0];let min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(let o of objects){let model=models[o.assetId];if(!model?.bounds)throw Error('中心を求めるモデルが未読込みです');let m=transform(o);for(let x of [model.bounds.min[0],model.bounds.max[0]])for(let y of [model.bounds.min[1],model.bounds.max[1]])for(let z of [model.bounds.min[2],model.bounds.max[2]]){let p=point(m,[x,y,z]);for(let i=0;i<3;i++){min[i]=Math.min(min[i],p[i]);max[i]=Math.max(max[i],p[i])}}}return min.map((v,i)=>(v+max[i])/2)}
+
+// Camera-local rotations carry the up vector through both poles, without Euler clamps.
+const cross3=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+const unit3=a=>{let n=Math.hypot(...a);if(n<1e-8)throw Error('Invalid camera basis');return a.map(v=>v/n)};
+function rotate3(v,k,t){let c=Math.cos(t),s=Math.sin(t),dot=v.reduce((a,x,i)=>a+x*k[i],0),w=cross3(k,v);return v.map((x,i)=>x*c+w[i]*s+k[i]*dot*(1-c))}
+export function trackballCamera(camera,dx,dy){finite(dx);finite(dy);let {a}=offset(camera),z=unit3(a),up=camera.up|| (Math.abs(z[1])>.999?[0,0,-1]:[0,1,0]),right=unit3(cross3(up,z));up=unit3(cross3(z,right));let yaw=-dx*Math.PI/180,pitch=-dy*Math.PI/180;a=rotate3(a,up,yaw);right=rotate3(right,up,yaw);a=rotate3(a,right,pitch);up=unit3(rotate3(up,right,pitch));return {...result(camera,a.map((v,i)=>v+camera.target[i])),up}}
+export function wheelFactor(delta,mode=0){finite(delta);return Math.exp(clamp(delta*(mode===1?16:mode===2?600:1),-300,300)*.002)}
+
+// Snap is relative to the pose at each Shift transition, never global Euler angles.
+export function beginCameraGesture(camera,shift=false){return {camera:structuredClone(camera),base:structuredClone(camera),shift:!!shift,total:[0,0]}}
+export function advanceCameraGesture(gesture,dx,dy,shift=false){finite(dx);finite(dy);let g=gesture.shift===!!shift?structuredClone(gesture):beginCameraGesture(gesture.camera,shift);g.total[0]+=dx;g.total[1]+=dy;if(g.shift){let angles=g.total.map(v=>Math.sign(v)*Math.floor(Math.abs(v)/30+.5)*30);g.camera=angles.every(v=>v===0)?structuredClone(g.base):trackballCamera(g.base,...angles)}else g.camera=trackballCamera(g.camera,dx,dy);return g}

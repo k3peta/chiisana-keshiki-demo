@@ -1,0 +1,3 @@
+export const defaultLighting=()=>({ambient:.44,intensity:.56,azimuth:-35.5377,elevation:49.29});
+export function lighting(value){let v=value===undefined?defaultLighting():value;if(!v||typeof v!=='object'||Array.isArray(v))throw Error('照明設定が不正です');for(let[k,min,max]of [['ambient',0,2],['intensity',0,3],['azimuth',-180,180],['elevation',-89,89]])if(typeof v[k]!=='number'||!Number.isFinite(v[k])||v[k]<min||v[k]>max)throw Error('照明設定の範囲が不正です');return {ambient:v.ambient,intensity:v.intensity,azimuth:v.azimuth,elevation:v.elevation}}
+export function lightDirection(value){let v=lighting(value),a=v.azimuth*Math.PI/180,e=v.elevation*Math.PI/180;return [Math.sin(a)*Math.cos(e),Math.sin(e),Math.cos(a)*Math.cos(e)]}

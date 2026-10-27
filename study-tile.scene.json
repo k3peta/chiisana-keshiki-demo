@@ -1,0 +1,105 @@
+{
+  "format": "vignette-room",
+  "version": 1,
+  "catalogRevision": "catalog-20261018",
+  "room": {
+    "floor": "stone",
+    "walls": false,
+    "width": 4,
+    "depth": 6,
+    "height": 3.4
+  },
+  "camera": {
+    "position": [
+      6,
+      6,
+      8
+    ],
+    "target": [
+      0,
+      0.1,
+      0.25
+    ],
+    "fov": 48
+  },
+  "objects": [
+    {
+      "id": "study-floor-0",
+      "assetId": "FT_046__color",
+      "position": [
+        -1,
+        0,
+        -1.75
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-1",
+      "assetId": "FT_046__color",
+      "position": [
+        -1,
+        0,
+        0.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-2",
+      "assetId": "FT_046__color",
+      "position": [
+        -1,
+        0,
+        2.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-3",
+      "assetId": "FT_046__color",
+      "position": [
+        1,
+        0,
+        -1.75
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-4",
+      "assetId": "FT_046__color",
+      "position": [
+        1,
+        0,
+        0.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-5",
+      "assetId": "FT_046__color",
+      "position": [
+        1,
+        0,
+        2.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    }
+  ],
+  "snapEnabled": true,
+  "assetVersions": {
+    "FT_046__color": "dfbd71f88d7d403175888d840ffaa3df58b513c579356dba35c444cef1a46cd4"
+  },
+  "assetRefs": [
+    {
+      "id": "FT_046__color",
+      "name": "石タイル床 2m（青灰色版）",
+      "sha256": "dfbd71f88d7d403175888d840ffaa3df58b513c579356dba35c444cef1a46cd4",
+      "unit": 1
+    }
+  ]
+}

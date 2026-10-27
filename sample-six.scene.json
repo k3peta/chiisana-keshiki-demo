@@ -1,0 +1,169 @@
+{
+  "format": "vignette-room",
+  "version": 1,
+  "catalogRevision": "catalog-20261018",
+  "room": {
+    "floor": "wood",
+    "walls": false,
+    "width": 12,
+    "depth": 10,
+    "height": 5
+  },
+  "camera": {
+    "position": [
+      8,
+      6,
+      9
+    ],
+    "target": [
+      2,
+      0.4,
+      0
+    ],
+    "fov": 48
+  },
+  "objects": [
+    {
+      "id": "object-0",
+      "assetId": "pub_TR001_db6b3fb2f37e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "terrainAnchor": "surface-v1"
+    },
+    {
+      "id": "object-1",
+      "assetId": "pub_TR017_26611d7a4c2a",
+      "position": [
+        2,
+        0,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "terrainAnchor": "surface-v1"
+    },
+    {
+      "id": "object-2",
+      "assetId": "pub_TR018_5d1d0ae62389",
+      "position": [
+        2,
+        0,
+        -2
+      ],
+      "rotation": 180,
+      "scale": 1,
+      "terrainAnchor": "surface-v1"
+    },
+    {
+      "id": "object-3",
+      "assetId": "pub_FT_002_198469072213",
+      "position": [
+        0,
+        0.008772003600567901,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "support": {
+        "id": "object-0",
+        "surface": "ground",
+        "offset": [
+          0,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-4",
+      "assetId": "pub_FT_051_45e7f9494f14",
+      "position": [
+        0.5,
+        0.7687720164155665,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "support": {
+        "id": "object-3",
+        "surface": "tabletop",
+        "offset": [
+          0.5,
+          0
+        ],
+        "yaw": 0
+      }
+    },
+    {
+      "id": "object-5",
+      "assetId": "pub_AT_001_68be0df622a8",
+      "position": [
+        -0.55,
+        0.7687720164155665,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "support": {
+        "id": "object-3",
+        "surface": "tabletop",
+        "offset": [
+          -0.55,
+          0
+        ],
+        "yaw": 0
+      }
+    }
+  ],
+  "assetVersions": {
+    "pub_TR001_db6b3fb2f37e": "1a5a1f261031e559ebe9c82c36a6226a18723ec99ed02c8fed17b8acea266d49",
+    "pub_TR017_26611d7a4c2a": "ef255dd6f85167c26461b8f80513d3d61e4b1f7df589fd2fce80645dd79262c3",
+    "pub_TR018_5d1d0ae62389": "3655cfe787924bd135cf7864f98ceaa61e9568da18b71ac234dce2f0a98849e4",
+    "pub_FT_002_198469072213": "938fe7a1523b406124012dd9d7dd68944a61779ed0c11eb9bb309cbbf6c34d06",
+    "pub_FT_051_45e7f9494f14": "e2c1500eb96f31402a823877f4af3ab766003a60168a39dd442709f6f642bbbd",
+    "pub_AT_001_68be0df622a8": "861554732c8a792cb0f1e3763045a8ad6158bce32aa260dfcd31559164723861"
+  },
+  "assetRefs": [
+    {
+      "id": "pub_TR001_db6b3fb2f37e",
+      "name": "grass short meadow",
+      "sha256": "1a5a1f261031e559ebe9c82c36a6226a18723ec99ed02c8fed17b8acea266d49",
+      "unit": 1
+    },
+    {
+      "id": "pub_TR017_26611d7a4c2a",
+      "name": "path straight NS",
+      "sha256": "ef255dd6f85167c26461b8f80513d3d61e4b1f7df589fd2fce80645dd79262c3",
+      "unit": 1
+    },
+    {
+      "id": "pub_TR018_5d1d0ae62389",
+      "name": "path bend NE",
+      "sha256": "3655cfe787924bd135cf7864f98ceaa61e9568da18b71ac234dce2f0a98849e4",
+      "unit": 1
+    },
+    {
+      "id": "pub_FT_002_198469072213",
+      "name": "架台テーブル / Trestle Table",
+      "sha256": "938fe7a1523b406124012dd9d7dd68944a61779ed0c11eb9bb309cbbf6c34d06",
+      "unit": 1
+    },
+    {
+      "id": "pub_FT_051_45e7f9494f14",
+      "name": "補修された帳簿",
+      "sha256": "e2c1500eb96f31402a823877f4af3ab766003a60168a39dd442709f6f642bbbd",
+      "unit": 1
+    },
+    {
+      "id": "pub_AT_001_68be0df622a8",
+      "name": "古い天球儀",
+      "sha256": "861554732c8a792cb0f1e3763045a8ad6158bce32aa260dfcd31559164723861",
+      "unit": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+import{trs,transform,point}from'./engine.mjs';
+export const roomSize=r=>({width:r.width??5,depth:r.depth??4.5,height:r.height??2.5});
+export function roomMatrix(r){let d=roomSize(r);return trs([0,0,.25*(1-d.depth/4.5)],[0,0,0,1],[d.width/5,d.height/2.5,d.depth/4.5])}
+export function layoutCamera(kind,r){let {width:w,depth:d,height:h}=roomSize(r),target=kind==='top'?[0,0,.25]:[0,h/2,.25],position=kind==='top'?[0,25,.25]:kind==='front'?[0,h/2,25]:[25,h/2,.25],span=kind==='top'?Math.max(d,w/1.6):Math.max(h,(kind==='front'?w:d)/1.6);return{position,target,fov:48,projection:'orthographic',orthoSize:span*1.2,layoutView:kind}}
+export function outsideRoom(o,model,r){let d=roomSize(r),m=transform(o);for(let x of [model.bounds.min[0],model.bounds.max[0]])for(let y of [model.bounds.min[1],model.bounds.max[1]])for(let z of [model.bounds.min[2],model.bounds.max[2]]){let p=point(m,[x,y,z]);if(p[0]<-d.width/2-.001||p[0]>d.width/2+.001||p[2]<.25-d.depth/2-.001||p[2]>.25+d.depth/2+.001||p[1]<(o.terrainAnchor==='surface-v1'?-1.021:-.001)||p[1]>d.height+.001)return true}return false}

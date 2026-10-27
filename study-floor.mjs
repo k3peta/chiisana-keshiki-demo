@@ -1,0 +1,3 @@
+// Exact inspected 2m models; no fabricated substitute and no furniture.
+export const studyFloorIds={wood:'FT_045__repair',tile:'FT_046__color'};
+export function makeStudyFloor(kind,base){if(!studyFloorIds[kind])throw Error('Unknown study floor');let s=structuredClone(base);s.objects=[];delete s.terrain;s.room={floor:kind==='wood'?'wood':'stone',walls:false,width:4,depth:6,height:3.4};s.camera={position:[6,6,8],target:[0,.1,.25],fov:48};s.snapEnabled=true;for(let x of [-1,1])for(let z of [-1.75,.25,2.25])s.objects.push({id:'study-floor-'+s.objects.length,assetId:studyFloorIds[kind],position:[x,0,z],rotation:0,scale:1});return s}

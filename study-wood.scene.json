@@ -1,0 +1,105 @@
+{
+  "format": "vignette-room",
+  "version": 1,
+  "catalogRevision": "catalog-20261018",
+  "room": {
+    "floor": "wood",
+    "walls": false,
+    "width": 4,
+    "depth": 6,
+    "height": 3.4
+  },
+  "camera": {
+    "position": [
+      6,
+      6,
+      8
+    ],
+    "target": [
+      0,
+      0.1,
+      0.25
+    ],
+    "fov": 48
+  },
+  "objects": [
+    {
+      "id": "study-floor-0",
+      "assetId": "FT_045__repair",
+      "position": [
+        -1,
+        0,
+        -1.75
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-1",
+      "assetId": "FT_045__repair",
+      "position": [
+        -1,
+        0,
+        0.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-2",
+      "assetId": "FT_045__repair",
+      "position": [
+        -1,
+        0,
+        2.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-3",
+      "assetId": "FT_045__repair",
+      "position": [
+        1,
+        0,
+        -1.75
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-4",
+      "assetId": "FT_045__repair",
+      "position": [
+        1,
+        0,
+        0.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    },
+    {
+      "id": "study-floor-5",
+      "assetId": "FT_045__repair",
+      "position": [
+        1,
+        0,
+        2.25
+      ],
+      "rotation": 0,
+      "scale": 1
+    }
+  ],
+  "snapEnabled": true,
+  "assetVersions": {
+    "FT_045__repair": "d488d509f9326fa782c1dc9738378e4f47294fcdc5fa8737dd09a2bdc3a28e30"
+  },
+  "assetRefs": [
+    {
+      "id": "FT_045__repair",
+      "name": "板張り床 2m（材質改修版）",
+      "sha256": "d488d509f9326fa782c1dc9738378e4f47294fcdc5fa8737dd09a2bdc3a28e30",
+      "unit": 1
+    }
+  ]
+}

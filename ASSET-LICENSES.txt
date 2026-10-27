@@ -1,0 +1,184 @@
+モデル個別の根拠です。アプリコード・作品全体をCC0としません。
+
+
+pub_TR001_db6b3fb2f37e / grass short meadow
+{
+  "sha256": "1a5a1f261031e559ebe9c82c36a6226a18723ec99ed02c8fed17b8acea266d49",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal\n\nThe model geometry, UVs, materials and embedded resources necessary to display this model are offered under CC0 1.0 Universal, within the distributor's rights. Commercial use, modification, copying and redistribution are permitted; attribution is optional. No warranty is provided and third-party rights are not granted.\n\nモデル形状・UV・材質・表示に必要な内蔵素材のみ、配布者の権利の範囲でCC0 1.0を適用します。記事・画像・完成配置シーン・制作コードには適用しません。無保証です。\n\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n"
+}
+
+pub_TR017_26611d7a4c2a / path straight NS
+{
+  "sha256": "ef255dd6f85167c26461b8f80513d3d61e4b1f7df589fd2fce80645dd79262c3",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal\n\nThe model geometry, UVs, materials and embedded resources necessary to display this model are offered under CC0 1.0 Universal, within the distributor's rights. Commercial use, modification, copying and redistribution are permitted; attribution is optional. No warranty is provided and third-party rights are not granted.\n\nモデル形状・UV・材質・表示に必要な内蔵素材のみ、配布者の権利の範囲でCC0 1.0を適用します。記事・画像・完成配置シーン・制作コードには適用しません。無保証です。\n\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n"
+}
+
+pub_TR018_5d1d0ae62389 / path bend NE
+{
+  "sha256": "3655cfe787924bd135cf7864f98ceaa61e9568da18b71ac234dce2f0a98849e4",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal\n\nThe model geometry, UVs, materials and embedded resources necessary to display this model are offered under CC0 1.0 Universal, within the distributor's rights. Commercial use, modification, copying and redistribution are permitted; attribution is optional. No warranty is provided and third-party rights are not granted.\n\nモデル形状・UV・材質・表示に必要な内蔵素材のみ、配布者の権利の範囲でCC0 1.0を適用します。記事・画像・完成配置シーン・制作コードには適用しません。無保証です。\n\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n"
+}
+
+pub_FT_002_198469072213 / 架台テーブル / Trestle Table
+{
+  "sha256": "938fe7a1523b406124012dd9d7dd68944a61779ed0c11eb9bb309cbbf6c34d06",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_FT_051_45e7f9494f14 / 補修された帳簿
+{
+  "sha256": "e2c1500eb96f31402a823877f4af3ab766003a60168a39dd442709f6f642bbbd",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_AT_001_68be0df622a8 / 古い天球儀
+{
+  "sha256": "861554732c8a792cb0f1e3763045a8ad6158bce32aa260dfcd31559164723861",
+  "license": "CC0-1.0",
+  "text": "THE SECOND CHANCE — Antique Shop v6\nSPDX-License-Identifier: CC0-1.0\n\nThe 3D model files (.blend and .glb), including their geometry, materials and embedded textures, are dedicated to the public domain under CC0 1.0 Universal to the extent permitted by law.\nCanonical dedication: https://creativecommons.org/publicdomain/zero/1.0/\nLegal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nThe complete CC0 legal code is included as CC0-1.0.txt.\n\nYou may copy, modify and redistribute these model assets, including for commercial purposes, without permission or attribution. No warranty is provided. CC0 does not waive third-party trademark, patent, privacy or publicity rights, and use must not imply endorsement.\n\nScope: the completed static v6 model, its 20 new reusable asset groups, and the 73 original reusable antique-shop props distributed in this release. This dedication does not automatically apply to accompanying articles, explanatory prose, preview images, videos or other projects. Utility scripts are included as practical restoration tools; their inclusion does not expand the scope of this model dedication.\n"
+}
+
+pub_FT_001_feea207fc601 / 木と黒鉄の酒場カウンター
+{
+  "sha256": "86d8bfc8cbd6ef3d205bb8245efdd73204375e240cab80a032fdc1892f405673",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_FT_003_728d3c301059 / 木製背もたれ椅子 / Oak Tavern Chair
+{
+  "sha256": "6953447281f9c5e1ecd6423a41d108da36742776ad3675bd147059f3bb11631f",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_FT_004_875d1afe922f / 木と黒鉄の高いバースツール
+{
+  "sha256": "d8437793e5d712a68c3c88a9c65df3d764decf3b21c60e9a66f8510c1697b69d",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_FT_005_393ba7245dbd / 長い木製ベンチ
+{
+  "sha256": "18bbc4e37eeb270328dc6792ad7045bd8c9cbd642336d5f80ed0665485274488",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n"
+}
+
+pub_AT_002_fc2c9ca4cd17 / 止まった置時計
+{
+  "sha256": "21e217c49e868ea1cbb1555ae70a2714ec8cf01fb39f816234506daa62c47686",
+  "license": "CC0-1.0",
+  "text": "THE SECOND CHANCE — Antique Shop v6\nSPDX-License-Identifier: CC0-1.0\n\nThe 3D model files (.blend and .glb), including their geometry, materials and embedded textures, are dedicated to the public domain under CC0 1.0 Universal to the extent permitted by law.\nCanonical dedication: https://creativecommons.org/publicdomain/zero/1.0/\nLegal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nThe complete CC0 legal code is included as CC0-1.0.txt.\n\nYou may copy, modify and redistribute these model assets, including for commercial purposes, without permission or attribution. No warranty is provided. CC0 does not waive third-party trademark, patent, privacy or publicity rights, and use must not imply endorsement.\n\nScope: the completed static v6 model, its 20 new reusable asset groups, and the 73 original reusable antique-shop props distributed in this release. This dedication does not automatically apply to accompanying articles, explanatory prose, preview images, videos or other projects. Utility scripts are included as practical restoration tools; their inclusion does not expand the scope of this model dedication.\n"
+}
+
+pub_AT_003_082171c3e627 / 携帯日時計
+{
+  "sha256": "6b8c22a2db77944f6ab9ae057ec205611ed87a078fdfdc958ac2063203958e0c",
+  "license": "CC0-1.0",
+  "text": "THE SECOND CHANCE — Antique Shop v6\nSPDX-License-Identifier: CC0-1.0\n\nThe 3D model files (.blend and .glb), including their geometry, materials and embedded textures, are dedicated to the public domain under CC0 1.0 Universal to the extent permitted by law.\nCanonical dedication: https://creativecommons.org/publicdomain/zero/1.0/\nLegal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nThe complete CC0 legal code is included as CC0-1.0.txt.\n\nYou may copy, modify and redistribute these model assets, including for commercial purposes, without permission or attribution. No warranty is provided. CC0 does not waive third-party trademark, patent, privacy or publicity rights, and use must not imply endorsement.\n\nScope: the completed static v6 model, its 20 new reusable asset groups, and the 73 original reusable antique-shop props distributed in this release. This dedication does not automatically apply to accompanying articles, explanatory prose, preview images, videos or other projects. Utility scripts are included as practical restoration tools; their inclusion does not expand the scope of this model dedication.\n"
+}
+
+FT_045__repair / 板張り床 2m（材質改修版）
+{
+  "sha256": "d488d509f9326fa782c1dc9738378e4f47294fcdc5fa8737dd09a2bdc3a28e30",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel geometry and embedded materials only.\nVerified source ZIP SHA256: 5eb4fc1a2820d56838ca86582898f5d5ee0783bc304a8a8d41fc57ba3d93f0ba\nBase distribution: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_045_CC0.zip"
+}
+
+FT_046__color / 石タイル床 2m（青灰色版）
+{
+  "sha256": "dfbd71f88d7d403175888d840ffaa3df58b513c579356dba35c444cef1a46cd4",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel geometry and embedded materials only.\nVerified source ZIP SHA256: 26091e7c7b44fb808499e06012c01a7570de28ddfe3cc4459adfdf9addc92176\nBase distribution: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_046_CC0.zip"
+}
+
+WS_010 / 引出し付き研究机 [1.72 × 0.82 × 0.90m]
+{
+  "sha256": "d6cd30625c756f1197e5bd7d02cd853f30bdcac19c066c652eebdeaab0e6404a",
+  "license": "CC0-1.0",
+  "text": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_010_CC0.zip\nSelected archive SHA256: eb4bef908578a5bf4118291dde50740aee47e6c571e5ddb24e8b7c9a003a12f2\nSelected archive member: WS010_research_desk.glb"
+}
+
+WS_011 / 彫刻柱付き書架 [1.32 × 2.51 × 0.56m]
+{
+  "sha256": "936cd6218736c050b63076be33daf93fd0ded184dd7904eb9e8ae387f92d8361",
+  "license": "CC0-1.0",
+  "text": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_011_CC0.zip\nSelected archive SHA256: 715de47c75aac719b155e14ed1d076f50518c5ce246d6a51b9d70d2537d01b44\nSelected archive member: WS011_library_bay.glb"
+}
+
+WS_024 / 遮光フード付き研究灯 [0.33 × 0.37 × 0.20m]
+{
+  "sha256": "11cf7229067639601bdefd65caa61d420ffb4f750228a37de26bfa23d394e5e0",
+  "license": "CC0-1.0",
+  "text": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_024_CC0.zip\nSelected archive SHA256: 2501af6ad45911284c581e6af7b0a64df3c807ede7663a50685f9ba5d9db84d7\nSelected archive member: WS024_observatory_lamp.glb"
+}
+
+WS_039 / 書き込みだらけの研究紙束 [0.41 × 0.02 × 0.31m]
+{
+  "sha256": "6b0838dd4861443284c2567e6c8b2c08247a2ad496e426053961d3fa6ff846a3",
+  "license": "CC0-1.0",
+  "text": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_039_CC0.zip\nSelected archive SHA256: 6f980929cc54cacb86483868516840d1126370d43b4735ba28b3f9cd422a3cea\nSelected archive member: WS039_annotated_research_sheets.glb"
+}
+
+FP014 / インク壺と羽根ペン [0.18 × 0.53 × 0.10m]
+{
+  "sha256": "541f1add338399a04172dd01efad7dfc65c3212e50d10348c3dc923c5db66d0a",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal\nThe model files (.blend and .glb) and their embedded materials/textures in this asset package are dedicated to the public domain under CC0 1.0.\nhttps://creativecommons.org/publicdomain/zero/1.0/\nCommercial use, modification and redistribution are permitted; attribution is not required. No warranty is provided. This dedication does not cover the article text, rendered example images, or unrelated repository contents.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/FP014_Inkpot_and_quill.zip\nSelected archive SHA256: 5d129d8c7dc8833580806614bbbf783fdc1fa42631cf7aff99854b1580264051\nSelected archive member: FP014_Inkpot_and_quill.glb"
+}
+
+FT_017 / 木製マグ [0.19 × 0.18 × 0.14m]
+{
+  "sha256": "31a037466a9256edfc7512d4a37c193abd3fa95c78b6ae48758fde8229d7c455",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_017_CC0.zip\nSelected archive SHA256: 14bd4150053c91730d9cf72af5423543015e3bcb41c95a0528c0949424a48be1\nSelected archive member: FT_017/model.glb"
+}
+
+FT_044 / 二つの実開口を持つ漆喰の壁 [3.00 × 2.40 × 0.16m]
+{
+  "sha256": "98c19bb848070bce321bd5128330087e587690caa98bff41cd1698447a94cc51",
+  "license": "CC0-1.0",
+  "text": "ファンタジー酒場・琥珀色材質版　CC0 1.0 Universal\n\n対象：各分冊のマニフェストに列挙したFT_001〜FT_056、および別枠のFT_STAGEのBLEND／GLBに収録するモデル形状、UV、マテリアル設定、表示に必要な自作・生成テクスチャ。パック／内包された表示用テクスチャも対象です。舞台はPART5に収録し、56点とは別枠です。\n\n配布者が保有する著作権その他の対象となる権利の範囲で、CC0 1.0 Universalを適用します。法令上認められる最大限の範囲で権利を放棄し、有効にならない範囲にはCC0所定の代替的な許諾が適用されます。商用・非商用利用、改変、複製、再配布、画像・映像制作ができ、クレジットは任意です。独自の追加利用制限は設けません。\n\nこのモデル向けCC0表明には、記事文、GPT Imageの構想参考画像、既存作例レンダー、生成・配置・検証コード、完成した家具配置シーン、配置レシピ、制作・検証資料を含めません。これらはモデルZIPにも収録していません。この除外は、利用者が対象モデルから新たに作る画像・映像を制限するものではありません。\n\n第三者の権利を許諾するものではなく、配布者自身の商標権・特許権もCC0の対象外です。素材は現状のまま、適用法令上認められる最大限の範囲で無保証で提供します。制作記録の確認は第三者権利の不存在を法的に保証するものではありません。\n\n正式な条件：\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode.en\n日本語の説明：\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nこの説明は対象範囲を明示するもので、CC0本文を変更したり、追加制限を設けたりするものではありません。\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.18/FT_044_CC0.zip\nSelected archive SHA256: 60a8bf956f64498523747b9d396253f73706613c5bfc879f97f9aada738be38c\nSelected archive member: FT_044/model.glb"
+}
+
+PM002 / 石壁2m [1.72 × 3.20 × 0.24m]
+{
+  "sha256": "ebb8e6d3bb30748814d5700e19945fa30a6ef89080ec52fe468854208b9de0e7",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal\nThe model files (.blend and .glb) and their embedded materials/textures in this asset package are dedicated to the public domain under CC0 1.0.\nhttps://creativecommons.org/publicdomain/zero/1.0/\nCommercial use, modification and redistribution are permitted; attribution is not required. No warranty is provided. This dedication does not cover the article text, rendered example images, or unrelated repository contents.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/PM002_Solid_Wall_2m.zip\nSelected archive SHA256: bdad40ec2f8f10195537f608a38eca36b62354706fea7b2dce7389fb10b5224f\nSelected archive member: PM002_Solid_Wall_2m.glb"
+}
+
+PM006 / 共通石柱 [0.28 × 3.20 × 0.28m]
+{
+  "sha256": "3c5495a3a8e44a806c213ee3a2f6b66d025cc9b80eaea09af203b18e5529c694",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel geometry and embedded materials only.\nBase/source URL: https://raw.githubusercontent.com/k3peta/tales-on-a-table/main/distributions/quality-pmnode-wm009-repair-v1/PM006__repair_CC0.zip\nSelected archive SHA256: a9faf1dc74938786d8bc906cc1bdff1d31f8ff75a1322e397c5b7106d71143fb\nSelected archive member: PM006__repair.glb"
+}
+
+PM005__repair / アーチ窓の石壁（UV改修版） [1.72 × 3.20 × 0.38m]
+{
+  "sha256": "0e06994e8ed36fd35931c1703a0497441b23422cb216e3c8fdc018fc7a0a098e",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel and embedded materials only.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.20-prison/PM005_Arched_Window_Wall_2m.zip\nSelected archive SHA256: cfe825256c6ffa207342a3d9404f9bdf5ae59ed2b1868a1eb23a9a6a79a69da5\nSelected archive member: PM005__repair.glb"
+}
+
+WS_002 / 紐綴じの採集帳（緑） [0.16 × 0.06 × 0.26m]
+{
+  "sha256": "0e7fca15c49e1f87b5652984748ebcaa93fa093da015651afd22fe2a79681a26",
+  "license": "CC0-1.0",
+  "text": "SPDX-License-Identifier: CC0-1.0\n\nWizard Study — original geometry, procedural materials, generated renders and creation scripts in this package.\nTo the extent possible under law, the creator dedicates the original work in this package to the public domain under CC0 1.0 Universal, waiving copyright and related rights.\nhttps://creativecommons.org/publicdomain/zero/1.0/legalcode\n\nNo third-party model, image texture or external font is included. This dedication does not apply to Blender or other software used to create or view the work.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_002_CC0.zip\nSelected archive SHA256: a42e27d7a30b28c526caee68a47b6e60df3b42e2d01c94353346127db330da77\nSelected archive member: WS002_field_notebook.glb"
+}
+
+WS_002__color_blue / 紐綴じの採集帳（青・同形色違い） [0.16 × 0.06 × 0.26m]
+{
+  "sha256": "be30ad64915a2274fe4e354ce992260923e16c9eb85680b1697b838d006d27f4",
+  "license": "CC0-1.0",
+  "text": "CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/\nModel and embedded materials only.\n\nBase/source URL: https://github.com/k3peta/tales-on-a-table/releases/download/v2026.10.19-wizard-study/WS_002_CC0.zip\nSelected archive SHA256: f32b9291ba8cf036952f38a5d5dc1db4546f03bb43c4ffa68a5199f6222039ba\nSelected archive member: WS_002__color_blue.glb"
+}

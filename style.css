@@ -1,0 +1,89 @@
+*{box-sizing:border-box}body{margin:0;background:#eae8e1;color:#253631;font:14px -apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN',sans-serif}header{display:flex;align-items:center;justify-content:space-between;padding:22px 30px;border-bottom:1px solid #c7cbc1;background:#f6f5ef}small{font-size:10px;letter-spacing:2px;color:#697b70}h1{font-size:26px;margin:6px 0 0;font-weight:600}header nav{display:flex;gap:8px;flex-wrap:wrap;min-width:0;max-width:100%}button,select,input{font:inherit}button{cursor:pointer;border:1px solid #bdc6bd;background:#fafaf5;color:#29453b;border-radius:7px;padding:10px 12px}button:hover{background:#e0e8df}button:disabled{opacity:.4;cursor:default}.primary{background:#305c4c;color:white}main{display:grid;grid-template-columns:230px minmax(400px,1fr) 245px;gap:22px;padding:24px}aside{background:#f7f6f0;border:1px solid #d5d9ce;border-radius:12px;padding:18px}h2{font-size:12px;letter-spacing:1px;margin:5px 0 14px}h2:not(:first-child){margin-top:25px}p{font-size:12px;line-height:1.7;color:#657469}.shelf-item{display:block;width:100%;text-align:left;margin:8px 0;padding:12px}.shelf-item small{display:block;letter-spacing:1px;font-size:9px;margin-top:5px}.stage{align-self:start;padding-top:3px}.stagebar{display:flex;justify-content:space-between;font-size:10px;letter-spacing:1.8px;color:#657469;margin:8px 0 12px}canvas{width:100%;aspect-ratio:1.6;display:block;border-radius:12px;box-shadow:0 12px 32px #24332b22}.presets{display:flex;gap:8px;justify-content:center;margin:18px}.caption{text-align:center;font-size:14px}.hint{font-size:11px}label{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0;font-size:12px}input[type=number]{width:82px;padding:6px;border:1px solid #c4cec1;border-radius:5px;background:white}select{max-width:135px;padding:5px}.check{justify-content:flex-start}.object{display:block;width:100%;padding:8px;margin:5px 0;text-align:left;font-size:12px}.object.active{background:#d5e5d7;border-color:#678772}.danger{font-size:11px;color:#924d3b;margin-top:10px}#selected{font-size:12px}#status{text-align:center;min-height:20px}footer{padding:0 30px 20px;font-size:10px;color:#7b857a}button:focus-visible,input:focus-visible{outline:3px solid #c48f42}@media(max-width:1050px){main{grid-template-columns:190px minmax(320px,1fr);gap:15px}main>aside:last-child{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:14px}header{gap:15px;flex-wrap:wrap}}@media(max-width:620px){main{display:flex;flex-direction:column}nav{flex-wrap:wrap}.stage{width:100%}}
+
+#viewport{position:relative}#hover-delete{position:absolute;z-index:3;width:38px;height:38px;padding:0;border-radius:50%;background:#fff7ed;color:#7b372b;border:2px solid #8d5846;font-size:26px;line-height:30px;box-shadow:0 2px 8px #0004;touch-action:manipulation}#hover-delete:hover{background:#f5d5c6}#hover-delete[hidden],#selection-frame[hidden]{display:none}#selection-frame{position:absolute;border:1px dashed #f5dfaa;border-radius:4px;pointer-events:none;z-index:2}#rotate-controls p{margin:10px 0 6px}.turns{display:grid;grid-template-columns:1fr 1fr;gap:5px}.turns button{font-size:11px;padding:8px 4px}#support{width:100%;max-width:100%;font-size:12px}#place{width:100%;margin-top:8px;font-size:12px}#viewport canvas{touch-action:pan-y}
+#viewport{position:relative}#gizmo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:hidden;z-index:2;touch-action:none}#gizmo g{pointer-events:stroke;cursor:grab;outline:none}#gizmo g:focus .axis-line,#gizmo g:focus .ring-line{stroke-width:7px}#gizmo .axis-hit{fill:none;stroke:transparent;stroke-width:22px;pointer-events:stroke}#gizmo .axis-line{fill:none;stroke-width:4px;pointer-events:none}#gizmo .ring-line{fill:none;stroke-width:3px;pointer-events:none}#gizmo text{font:bold 14px sans-serif;paint-order:stroke;stroke:#263b32;stroke-width:3px;pointer-events:none}#gizmo circle{pointer-events:all}.toolstrip{display:flex;align-items:center;gap:6px;margin:0 0 10px;flex-wrap:wrap}.toolstrip button{font-size:12px;padding:8px 10px}.toolstrip label{margin-left:auto}.toolstrip button[aria-pressed=true]{background:#305c4c;color:#fff}.snap-status{text-align:center;background:#dce6da;padding:7px;border-radius:6px;margin-bottom:5px}.center{text-align:center}.presets{align-items:center}.presets span{font-size:11px}.turns{margin-top:14px}details{margin-top:20px;border-top:1px solid #d7ddcf;padding-top:14px}summary{cursor:pointer;font-size:12px;font-weight:600}#duplicate{margin-top:8px;width:100%}#hover-delete{z-index:4}#support{font-size:11px}
+
+#gizmo.rotate .axis-hit{stroke-width:10px}#gizmo g:hover .ring-line{stroke-width:5px}
+#shelf{max-height:440px;overflow-y:auto}#asset-search,#manifest-url{width:100%;box-sizing:border-box}#catalog-count{font-variant-numeric:tabular-nums}#manifest-url{font-size:12px}
+
+#missing-assets,#export-panel{margin:20px;padding:18px;background:#fff;border-radius:12px}#missing-list{overflow-wrap:anywhere}#export-json{width:100%;box-sizing:border-box} [hidden]{display:none!important}
+
+#room-warning{color:#963919;font-weight:600}.presets{flex-wrap:wrap}#view-label{font-weight:600}
+
+/* Limited shelf candidate: exact photos, honest missing-image fallback. */
+.shelf-photo{display:flex;align-items:center;justify-content:center;min-height:100px;background:#eee8dc;color:#514c42;margin-bottom:8px}.shelf-photo img{width:100%;height:140px;object-fit:contain}.shelf-item small{overflow-wrap:anywhere}button,input,select{min-height:44px;font-size:18px}button:focus-visible{outline:3px solid #165ea8;outline-offset:2px}[hidden]{display:none!important}
+
+.camera-controls{border:2px solid #39718a;padding:14px;background:#edf4f7;color:#142d38}.camera-controls h2{margin-top:0}.shelf-subcategories{padding-left:16px;display:flex;flex-wrap:wrap;gap:4px}#shelf-tree button[aria-pressed="true"],.shelf-item[aria-pressed="true"]{outline:3px solid #176897;outline-offset:-3px}#shelf-path,#shelf-choice{overflow-wrap:anywhere;font-weight:bold}
+
+/* HIER-UI-01: keep the taxonomy inside its own grid column. */
+main > aside, main > .stage { min-width: 0; max-width: 100%; }
+#shelf-tree { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; width: 100%; min-width: 0; max-width: 100%; }
+#shelf-tree > section { display: block; min-width: 0; max-width: 100%; }
+#shelf-tree button { display: block; width: 100%; min-width: 0; max-width: 100%; margin: 0; text-align: left; white-space: normal; overflow-wrap: anywhere; word-break: normal; line-height: 1.5; }
+#shelf-tree .shelf-subcategories { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; min-width: 0; max-width: 100%; padding: 6px 0 0 12px; }
+#shelf { min-width: 0; max-width: 100%; overflow-x: hidden; overflow-y: auto; scrollbar-gutter: stable; padding: 3px; scroll-padding-block: 4px; }
+#shelf .shelf-item, #shelf > a { max-width: 100%; min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+#shelf > a { display: block; line-height: 1.5; }
+.shelf-photo, .shelf-photo img { min-width: 0; max-width: 100%; }
+main > aside button, .camera-controls button { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+main label, main details, main input, main select { min-width: 0; max-width: 100%; }
+@media (max-width: 1050px) { main { grid-template-columns: 190px minmax(0, 1fr); } main > aside:last-child > * { max-width: 100%; min-width: 0; } }
+@media (max-width: 760px) { main { display: flex; flex-direction: column; padding: 12px; gap: 14px; } main > aside, main > .stage { width: 100%; } main > aside:last-child { display: block; } .camera-controls { padding: 10px; } }
+
+/* Compact stage; camera gestures own only the canvas. */
+header{padding:8px 14px;gap:10px}header h1{font-size:20px;margin:0}main{padding:12px;gap:12px}.stagebar{margin:2px 0 6px}.toolstrip{flex-wrap:wrap;gap:6px}.toolstrip label{margin:0}.toolstrip button{padding:7px 10px}#canvas{touch-action:none;cursor:grab}#canvas.orbit-dragging{cursor:grabbing}.stage>details{margin-top:6px}.stage>p{margin:4px 0}.stage .presets{flex-wrap:wrap;margin:8px 0}
+
+/* Narrow screens: reach the work before browsing the shelf. */
+header nav details { margin: 0; padding: 0; border: 0; }
+header nav summary { min-height: 44px; display: flex; align-items: center; }
+.stage-jump { position: absolute; left: 8px; top: -100px; z-index: 10; padding: 12px; background: white; color: #142d38; }
+.stage-jump:focus { top: 8px; }
+#viewport #canvas { touch-action: none; }
+@media (max-width: 760px) {
+  main > .stage { order: -1; }
+  main > aside { order: 0; }
+  header { align-items: flex-start; padding: 8px 12px; gap: 6px; }
+  header > div { width: 100%; }
+  header h1 { font-size: 18px; line-height: 1.3; }
+  header nav { width: 100%; gap: 4px; }
+  header nav button { padding: 6px 8px; font-size: 14px; }
+  main { padding-top: 6px; }
+  .stagebar { margin: 0 0 4px; }
+  .toolstrip { gap: 4px; margin-bottom: 6px; }
+  .toolstrip button { padding: 6px 8px; }
+}
+
+.floor-start{margin:0 0 6px;padding:0;border:0}.floor-start summary{min-height:44px;display:flex;align-items:center}.floor-start a{display:inline-block;padding:10px 4px;min-height:44px;font-size:16px}
+
+/* Nonmodal right drawer: hidden by default, click/tap and keyboard controlled. */
+main{grid-template-columns:230px minmax(0,1fr)}
+#placed-drawer{position:fixed;z-index:20;right:0;top:0;bottom:0;width:min(420px,92vw);max-width:100%;overflow-y:auto;overscroll-behavior:contain;display:block;border-radius:12px 0 0 12px;box-shadow:-8px 0 24px #0003;padding:16px;background:#f7f6f0}
+#placed-drawer[hidden]{display:none!important}
+.drawer-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;position:sticky;top:-16px;background:#f7f6f0;padding:8px 0;z-index:1}
+.drawer-heading h2{margin:0}.placed-group{margin:8px 0;padding-top:6px}.placed-group summary{min-height:44px;padding:10px 4px;overflow-wrap:anywhere;font-size:16px}.placed-group button{white-space:normal;overflow-wrap:anywhere}
+@media(max-width:1050px){main{grid-template-columns:190px minmax(0,1fr)}}
+
+/* Keep the one canonical save/undo toolbar accessible while the drawer is open. */
+body>header{position:sticky;top:0;z-index:30}
+#placed-drawer{top:var(--app-header-height,200px);bottom:0;max-height:calc(100dvh - var(--app-header-height,200px));min-height:0}
+
+#items-panel{scroll-margin-top:calc(var(--app-header-height,200px) + 12px)}.creation-steps{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.creation-steps button{background:#305c4c;color:white;min-height:44px}.placement-intro,#placement-next{font-size:16px;color:#213b2c;background:#e0ecd9;padding:10px;border-radius:8px}#shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(160px,100%),1fr));gap:8px}#shelf>.shelf-item{margin:0;font-size:15px}#shelf>a{display:none}#library-panel{margin-top:10px}#items-panel details{margin-top:8px;padding-top:8px}
+
+.shelf-group-label{grid-column:1/-1;font-size:15px;margin:12px 0 0;border-bottom:1px solid #b5c5b5;padding:8px 0}
+
+/* Phone candidate: no page zoom restriction; two-touch gestures stay in viewport. */
+@media(pointer:coarse){
+ #gizmo .axis-hit{stroke-width:32px}
+ #hover-delete{display:none!important} /* use the named delete button in placed drawer */
+ input,select,textarea{font-size:16px!important}
+ button,summary{min-height:44px}
+}
+@media(max-width:760px){
+ .floor-start:not([open]){margin:0}
+ #placement-next{font-size:14px;line-height:1.4;padding:6px;margin:4px 0}
+ .creation-steps{gap:4px;margin:4px 0}
+ .creation-steps button{font-size:14px;padding:6px 8px}
+ .stage>h2{margin:6px 0;font-size:14px}
+ #viewport{scroll-margin-top:calc(var(--app-header-height,200px) + 6px)}
+ #placed-drawer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+}
